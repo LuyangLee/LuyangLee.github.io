@@ -5,7 +5,7 @@
     <link>https://liluyang.com.cn/publication/</link>
       <atom:link href="https://liluyang.com.cn/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://liluyang.com.cn/media/icon_hu00894a052c38b0f41ea23d73dacad9f2_6370_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
@@ -13,10 +13,94 @@
     </image>
     
     <item>
+      <title>Leo: A Generic and Efficient Communication Framework for Message-level In-Network Computing (INFOCOM&#39;25)</title>
+      <link>https://liluyang.com.cn/publication/leo/</link>
+      <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://liluyang.com.cn/publication/leo/</guid>
+      <description>&lt;!-- 
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Harmonia: A Unified Framework for Heterogeneous FPGA Acceleration in the Cloud (ASPLOS&#39;25)</title>
+      <link>https://liluyang.com.cn/publication/harmonia/</link>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://liluyang.com.cn/publication/harmonia/</guid>
+      <description>&lt;!-- 
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Fast, Scalable, and Accurate Rate Limiter for RDMA NICs (SIGCOMM&#39;24)</title>
       <link>https://liluyang.com.cn/publication/ratelimiter/</link>
       <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://liluyang.com.cn/publication/ratelimiter/</guid>
+      <description>&lt;!-- 
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Roundabout: Solving PFC Deadlocks with Distributed Detection and Buffer Collaboration. (ICNP&#39;24)</title>
+      <link>https://liluyang.com.cn/publication/roundabout/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://liluyang.com.cn/publication/roundabout/</guid>
       <description>&lt;!-- 
 
 

@@ -276,12 +276,12 @@
 
   
 
-<meta name="description" content="An example talk using Wowchemy&#39;s Markdown slides feature." />
+<meta name="description" content="RDMA over Converged Ethernet (RoCEv2) employs Priority-based Flow Control (PFC) for a lossless fabric to maintain high performance. However, PFC can cause deadlocks, which pause traffic and potentially lead to severe exceptions for applications. Existing solutions solve deadlocks at a considerable cost, resulting in degradation of end-to-end network performance. We present Roundabout, a data plane scheme designed to detect and resolve deadlocks with minimal side effects. We first analyze how switches in different states contribute to deadlocks. Based on the analysis, we design an election-based distributed detection scheme that efficiently and robustly identifies deadlocks. By exploiting buffer configuration redundancy, we develop an in-network collaborative packet scheduling scheme that forwards deadlocked packets to their destinations in a lossless manner, facilitating natural deadlock resolution. Additionally, we implement a barrier mechanism to ensure in-order packet delivery to the receiver. Both analysis and experiments demonstrate that Roundabout effectively detects and resolves deadlocks while minimizing side effects to the network, making it an ideal enhancement for PFC switches." />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://liluyang.com.cn/talk/example-talk/" />
-<link rel="canonical" href="https://liluyang.com.cn/talk/example-talk/" />
+<link rel="alternate" hreflang="en-us" href="https://liluyang.com.cn/publication/roundabout/" />
+<link rel="canonical" href="https://liluyang.com.cn/publication/roundabout/" />
 
 
 
@@ -314,20 +314,20 @@
 
   <meta property="twitter:site" content="@wowchemy" />
   <meta property="twitter:creator" content="@wowchemy" />
-<meta property="twitter:image" content="https://liluyang.com.cn/talk/example-talk/featured.jpg" />
+<meta property="twitter:image" content="https://liluyang.com.cn/publication/roundabout/featured.png" />
 <meta property="og:site_name" content="Luyang Li" />
-<meta property="og:url" content="https://liluyang.com.cn/talk/example-talk/" />
-<meta property="og:title" content="Example Talk | Luyang Li" />
-<meta property="og:description" content="An example talk using Wowchemy&#39;s Markdown slides feature." /><meta property="og:image" content="https://liluyang.com.cn/talk/example-talk/featured.jpg" /><meta property="og:locale" content="en-us" />
+<meta property="og:url" content="https://liluyang.com.cn/publication/roundabout/" />
+<meta property="og:title" content="Roundabout: Solving PFC Deadlocks with Distributed Detection and Buffer Collaboration. (ICNP&#39;24) | Luyang Li" />
+<meta property="og:description" content="RDMA over Converged Ethernet (RoCEv2) employs Priority-based Flow Control (PFC) for a lossless fabric to maintain high performance. However, PFC can cause deadlocks, which pause traffic and potentially lead to severe exceptions for applications. Existing solutions solve deadlocks at a considerable cost, resulting in degradation of end-to-end network performance. We present Roundabout, a data plane scheme designed to detect and resolve deadlocks with minimal side effects. We first analyze how switches in different states contribute to deadlocks. Based on the analysis, we design an election-based distributed detection scheme that efficiently and robustly identifies deadlocks. By exploiting buffer configuration redundancy, we develop an in-network collaborative packet scheduling scheme that forwards deadlocked packets to their destinations in a lossless manner, facilitating natural deadlock resolution. Additionally, we implement a barrier mechanism to ensure in-order packet delivery to the receiver. Both analysis and experiments demonstrate that Roundabout effectively detects and resolves deadlocks while minimizing side effects to the network, making it an ideal enhancement for PFC switches." /><meta property="og:image" content="https://liluyang.com.cn/publication/roundabout/featured.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
       property="article:published_time"
-      content="2017-01-01T00:00:00&#43;00:00"
+      content="2024-08-06T00:00:00&#43;00:00"
     />
   
   
-    <meta property="article:modified_time" content="2030-06-01T13:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2024-08-06T00:00:00&#43;00:00">
   
 
 
@@ -335,9 +335,12 @@
 
 
 
-
-  
     
+
+
+
+
+
 
 
 
@@ -345,63 +348,56 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Event",
+  "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://liluyang.com.cn/talk/example-talk/"
+    "@id": "https://liluyang.com.cn/publication/roundabout/"
   },
-  "name": "Example Talk",
-  
-  "location": {
-    "@type": "Place",
-    "name": "Wowchemy HQ",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "450 Serra Mall",
-      "addressLocality": "Stanford",
-      "postalCode": "94305",
-      "addressRegion": "CA",
-      "addressCountry": "United States"
-    }
-    
-  },
-  
+  "headline": "Roundabout: Solving PFC Deadlocks with Distributed Detection and Buffer Collaboration. (ICNP'24)",
   
   "image": [
-    "https://liluyang.com.cn/talk/example-talk/featured.jpg"
+    "https://liluyang.com.cn/publication/roundabout/featured.png"
   ],
   
-  "startDate": "2030-06-01T13:00:00Z",
+  "datePublished": "2024-08-06T00:00:00Z",
+  "dateModified": "2024-08-06T00:00:00Z",
   
-  "endDate": "2030-06-01T15:00:00Z",
-  
-  
-  "performer": {
+  "author": {
     "@type": "Person",
-    "name": "Luyang Li"
+    "name": "Kai Lv"
   },
   
-  "description": "An example talk using Wowchemy's Markdown slides feature."
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luyang Li",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://liluyang.com.cn/media/icon_hu00894a052c38b0f41ea23d73dacad9f2_6370_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "RDMA over Converged Ethernet (RoCEv2) employs Priority-based Flow Control (PFC) for a lossless fabric to maintain high performance. However, PFC can cause deadlocks, which pause traffic and potentially lead to severe exceptions for applications. Existing solutions solve deadlocks at a considerable cost, resulting in degradation of end-to-end network performance. We present Roundabout, a data plane scheme designed to detect and resolve deadlocks with minimal side effects. We first analyze how switches in different states contribute to deadlocks. Based on the analysis, we design an election-based distributed detection scheme that efficiently and robustly identifies deadlocks. By exploiting buffer configuration redundancy, we develop an in-network collaborative packet scheduling scheme that forwards deadlocked packets to their destinations in a lossless manner, facilitating natural deadlock resolution. Additionally, we implement a barrier mechanism to ensure in-order packet delivery to the receiver. Both analysis and experiments demonstrate that Roundabout effectively detects and resolves deadlocks while minimizing side effects to the network, making it an ideal enhancement for PFC switches."
 }
 </script>
 
   
 
-
-
-
-  
-  
-  
-
-  
-  
-
   
 
 
+
+
   
-  <title>Example Talk | Luyang Li</title>
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Roundabout: Solving PFC Deadlocks with Distributed Detection and Buffer Collaboration. (ICNP&#39;24) | Luyang Li</title>
 
   
   
@@ -421,7 +417,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="a8edef490afe42206247b6ac05657af0" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="a4c990a01f582cc484d1e3ecb273018a" >
 
   
   
@@ -695,7 +691,16 @@
     
     
 
-    <div class="pub">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
 
   
 
@@ -725,7 +730,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Example Talk</h1>
+  <h1>Roundabout: Solving PFC Deadlocks with Distributed Detection and Buffer Collaboration. (ICNP&#39;24)</h1>
 
   
 
@@ -736,7 +741,33 @@
 
   
   
+  
+  
+  <div>
+    
 
+  <span >
+      Kai Lv</span>, <span >
+      Heng Pan</span>, <span >
+      Chenjun Jia</span>, <span >
+      Jiaxing Zhang</span>, <span class="author-highlighted">
+      Luyang Li</span>, <span >
+      Jianer Zhou</span>, <span >
+      Yanbiao Li</span>, <span >
+      Zhenyu Li</span>, <span >
+      Gaogang Xie</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    August, 2024
+  </span>
   
 
   
@@ -775,42 +806,23 @@
 
 
 
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header" href="/project/example/">
-    Project
-  </a>
-  
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/roundabout/cite.bib">
+  Cite
+</a>
 
 
 
 
 
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>Follow</a>
+
+
+
+
+
+
+
+
 
 
 </div>
@@ -819,10 +831,10 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 514px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 295px;">
   <div style="position: relative">
-    <img src="/talk/example-talk/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_720x2500_fit_q75_h2_lanczos.webp" width="720" height="514" alt="" class="featured-image">
-    <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/bzdhc5b3Bxs" target="_blank" rel="noopener"><strong>Unsplash</strong></a></span>
+    <img src="/publication/roundabout/featured_hu65d13619b663e21a7e6b70154c4cb105_52186_720x2500_fit_q75_h2_lanczos_3.webp" width="720" height="295" alt="" class="featured-image">
+    <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/pLCdAaMFLTE" target="_blank" rel="noopener"><strong>Unsplash</strong></a></span>
   </div>
 </div>
 
@@ -831,33 +843,20 @@
   <div class="article-container">
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.</p>
+    <h3>Abstract</h3>
+    <p class="pub-abstract">RDMA over Converged Ethernet (RoCEv2) employs Priority-based Flow Control (PFC) for a lossless fabric to maintain high performance. However, PFC can cause deadlocks, which pause traffic and potentially lead to severe exceptions for applications. Existing solutions solve deadlocks at a considerable cost, resulting in degradation of end-to-end network performance. We present Roundabout, a data plane scheme designed to detect and resolve deadlocks with minimal side effects. We first analyze how switches in different states contribute to deadlocks. Based on the analysis, we design an election-based distributed detection scheme that efficiently and robustly identifies deadlocks. By exploiting buffer configuration redundancy, we develop an in-network collaborative packet scheduling scheme that forwards deadlocked packets to their destinations in a lossless manner, facilitating natural deadlock resolution. Additionally, we implement a barrier mechanism to ensure in-order packet delivery to the receiver. Both analysis and experiments demonstrate that Roundabout effectively detects and resolves deadlocks while minimizing side effects to the network, making it an ideal enhancement for PFC switches.</p>
     
 
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9">
-            Jun 1, 2030 1:00 PM &amp;mdash; 3:00 PM
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
+    
     
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="https://example.org" target="_blank" rel="noopener">
-            Wowchemy Conference
+            <a href="/publication/#1">
+              Conference paper
             </a>
           </div>
         </div>
@@ -872,12 +871,8 @@
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Wowchemy HQ</div>
-          
-            <div class="col-md-3"></div>
-            <div class="col-12 col-md-9">450 Serra Mall, Stanford, CA 94305</div>
-          
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>Proc. ICNP'24</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -887,21 +882,27 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      <div class="alert alert-note">
+    <div class="article-style"><!-- 
+
+
+<div class="alert alert-note">
   <div>
-    Click on the <strong>Slides</strong> button above to view the built-in slides feature.
+    Click the <em>Cite</em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
   </div>
 </div>
-<p>Slides can be added in a few ways:</p>
-<ul>
-<li><strong>Create</strong> slides using Wowchemy&rsquo;s <a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener"><em>Slides</em></a> feature and link using <code>slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Upload</strong> an existing slide deck to <code>static/</code> and link using <code>url_slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Embed</strong> your slides (e.g. Google Slides) or presentation video on this page using <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes</a>.</li>
-</ul>
-<p>Further event details, including <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements</a> such as image galleries, can be added to the body of this page.</p>
 
-    </div>
+
+
+
+<div class="alert alert-note">
+  <div>
+    Create your slides in Markdown - click the <em>Slides</em> button to check out the example.
+  </div>
+</div>
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). -->
+</div>
 
     
 
@@ -926,7 +927,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fliluyang.com.cn%2Ftalk%2Fexample-talk%2F&amp;text=Example&#43;Talk" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fliluyang.com.cn%2Fpublication%2Froundabout%2F&amp;text=Roundabout%3A&#43;Solving&#43;PFC&#43;Deadlocks&#43;with&#43;Distributed&#43;Detection&#43;and&#43;Buffer&#43;Collaboration.&#43;%28ICNP%2724%29" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -943,7 +944,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fliluyang.com.cn%2Ftalk%2Fexample-talk%2F&amp;t=Example&#43;Talk" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fliluyang.com.cn%2Fpublication%2Froundabout%2F&amp;t=Roundabout%3A&#43;Solving&#43;PFC&#43;Deadlocks&#43;with&#43;Distributed&#43;Detection&#43;and&#43;Buffer&#43;Collaboration.&#43;%28ICNP%2724%29" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -962,7 +963,7 @@
         
       
       <li>
-        <a href="mailto:?subject=Example%20Talk&amp;body=https%3A%2F%2Fliluyang.com.cn%2Ftalk%2Fexample-talk%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Roundabout%3A%20Solving%20PFC%20Deadlocks%20with%20Distributed%20Detection%20and%20Buffer%20Collaboration.%20%28ICNP%2724%29&amp;body=https%3A%2F%2Fliluyang.com.cn%2Fpublication%2Froundabout%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -979,7 +980,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fliluyang.com.cn%2Ftalk%2Fexample-talk%2F&amp;title=Example&#43;Talk" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fliluyang.com.cn%2Fpublication%2Froundabout%2F&amp;title=Roundabout%3A&#43;Solving&#43;PFC&#43;Deadlocks&#43;with&#43;Distributed&#43;Detection&#43;and&#43;Buffer&#43;Collaboration.&#43;%28ICNP%2724%29" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -996,7 +997,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Example&#43;Talk%20https%3A%2F%2Fliluyang.com.cn%2Ftalk%2Fexample-talk%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Roundabout%3A&#43;Solving&#43;PFC&#43;Deadlocks&#43;with&#43;Distributed&#43;Detection&#43;and&#43;Buffer&#43;Collaboration.&#43;%28ICNP%2724%29%20https%3A%2F%2Fliluyang.com.cn%2Fpublication%2Froundabout%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1013,7 +1014,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fliluyang.com.cn%2Ftalk%2Fexample-talk%2F&amp;title=Example&#43;Talk" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fliluyang.com.cn%2Fpublication%2Froundabout%2F&amp;title=Roundabout%3A&#43;Solving&#43;PFC&#43;Deadlocks&#43;with&#43;Distributed&#43;Detection&#43;and&#43;Buffer&#43;Collaboration.&#43;%28ICNP%2724%29" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1033,6 +1034,31 @@
 
   
   
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
 
 
 
@@ -1144,6 +1170,31 @@
   </div>
 
 
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
 
 
 

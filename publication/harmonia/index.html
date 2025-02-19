@@ -276,12 +276,12 @@
 
   
 
-<meta name="description" content="An example talk using Wowchemy&#39;s Markdown slides feature." />
+<meta name="description" content="FPGAs are gaining popularity in the cloud as accelerators for various applications. To make FPGAs more accessible for users and streamline system management, cloud providers have widely adopted the shell-role architecture on their homogeneous FPGA servers. However, the increasing heterogeneity of cloud FPGAs poses new challenges for this architecture. Previous studies either focus on homogeneous FPGAs or only partially address the portability issues for roles, while still requiring laborious shell development for providers and ad-hoc software modifications for users. This paper presents Harmonia, a unified framework for heterogeneous FPGA acceleration in the cloud. Harmonia operates on two layers: a platform-specific layer that abstracts hardware differences and a platform-independent layer that provides a unified shell for diverse roles and host software. In detail, Harmonia provides automated platform adapters and lightweight interface wrappers to manage hardware differences. Next, it builds a modularized shell composed of Reusable Building Blocks and employs hierarchical tailoring to provide a resource-efficient and easy-to-use shell for different roles. Finally, it presents a command-based interface to minimize software modifications across distinct platforms. Harmonia has been deployed in a large service provider, Douyin, for several years. It reduces shell development workloads by 69%-93% and simplifies role and software configurations with negligible overhead (&lt;0.63%). Compared with other frameworks, Harmonia supports cross-vendor FPGAs, reduces resource consumption by 3.5%-14.9% and simplifies software configurations by 15-23x while maintaining comparable performance." />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://liluyang.com.cn/talk/example-talk/" />
-<link rel="canonical" href="https://liluyang.com.cn/talk/example-talk/" />
+<link rel="alternate" hreflang="en-us" href="https://liluyang.com.cn/publication/harmonia/" />
+<link rel="canonical" href="https://liluyang.com.cn/publication/harmonia/" />
 
 
 
@@ -314,20 +314,20 @@
 
   <meta property="twitter:site" content="@wowchemy" />
   <meta property="twitter:creator" content="@wowchemy" />
-<meta property="twitter:image" content="https://liluyang.com.cn/talk/example-talk/featured.jpg" />
+<meta property="twitter:image" content="https://liluyang.com.cn/publication/harmonia/featured.png" />
 <meta property="og:site_name" content="Luyang Li" />
-<meta property="og:url" content="https://liluyang.com.cn/talk/example-talk/" />
-<meta property="og:title" content="Example Talk | Luyang Li" />
-<meta property="og:description" content="An example talk using Wowchemy&#39;s Markdown slides feature." /><meta property="og:image" content="https://liluyang.com.cn/talk/example-talk/featured.jpg" /><meta property="og:locale" content="en-us" />
+<meta property="og:url" content="https://liluyang.com.cn/publication/harmonia/" />
+<meta property="og:title" content="Harmonia: A Unified Framework for Heterogeneous FPGA Acceleration in the Cloud (ASPLOS&#39;25) | Luyang Li" />
+<meta property="og:description" content="FPGAs are gaining popularity in the cloud as accelerators for various applications. To make FPGAs more accessible for users and streamline system management, cloud providers have widely adopted the shell-role architecture on their homogeneous FPGA servers. However, the increasing heterogeneity of cloud FPGAs poses new challenges for this architecture. Previous studies either focus on homogeneous FPGAs or only partially address the portability issues for roles, while still requiring laborious shell development for providers and ad-hoc software modifications for users. This paper presents Harmonia, a unified framework for heterogeneous FPGA acceleration in the cloud. Harmonia operates on two layers: a platform-specific layer that abstracts hardware differences and a platform-independent layer that provides a unified shell for diverse roles and host software. In detail, Harmonia provides automated platform adapters and lightweight interface wrappers to manage hardware differences. Next, it builds a modularized shell composed of Reusable Building Blocks and employs hierarchical tailoring to provide a resource-efficient and easy-to-use shell for different roles. Finally, it presents a command-based interface to minimize software modifications across distinct platforms. Harmonia has been deployed in a large service provider, Douyin, for several years. It reduces shell development workloads by 69%-93% and simplifies role and software configurations with negligible overhead (&lt;0.63%). Compared with other frameworks, Harmonia supports cross-vendor FPGAs, reduces resource consumption by 3.5%-14.9% and simplifies software configurations by 15-23x while maintaining comparable performance." /><meta property="og:image" content="https://liluyang.com.cn/publication/harmonia/featured.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
       property="article:published_time"
-      content="2017-01-01T00:00:00&#43;00:00"
+      content="2024-08-09T00:00:00&#43;00:00"
     />
   
   
-    <meta property="article:modified_time" content="2030-06-01T13:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2024-08-09T00:00:00&#43;00:00">
   
 
 
@@ -335,9 +335,12 @@
 
 
 
-
-  
     
+
+
+
+
+
 
 
 
@@ -345,63 +348,56 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Event",
+  "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://liluyang.com.cn/talk/example-talk/"
+    "@id": "https://liluyang.com.cn/publication/harmonia/"
   },
-  "name": "Example Talk",
-  
-  "location": {
-    "@type": "Place",
-    "name": "Wowchemy HQ",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "450 Serra Mall",
-      "addressLocality": "Stanford",
-      "postalCode": "94305",
-      "addressRegion": "CA",
-      "addressCountry": "United States"
-    }
-    
-  },
-  
+  "headline": "Harmonia: A Unified Framework for Heterogeneous FPGA Acceleration in the Cloud (ASPLOS'25)",
   
   "image": [
-    "https://liluyang.com.cn/talk/example-talk/featured.jpg"
+    "https://liluyang.com.cn/publication/harmonia/featured.png"
   ],
   
-  "startDate": "2030-06-01T13:00:00Z",
+  "datePublished": "2024-08-09T00:00:00Z",
+  "dateModified": "2024-08-09T00:00:00Z",
   
-  "endDate": "2030-06-01T15:00:00Z",
-  
-  
-  "performer": {
+  "author": {
     "@type": "Person",
     "name": "Luyang Li"
   },
   
-  "description": "An example talk using Wowchemy's Markdown slides feature."
+  "publisher": {
+    "@type": "Organization",
+    "name": "Luyang Li",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://liluyang.com.cn/media/icon_hu00894a052c38b0f41ea23d73dacad9f2_6370_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "FPGAs are gaining popularity in the cloud as accelerators for various applications. To make FPGAs more accessible for users and streamline system management, cloud providers have widely adopted the shell-role architecture on their homogeneous FPGA servers. However, the increasing heterogeneity of cloud FPGAs poses new challenges for this architecture. Previous studies either focus on homogeneous FPGAs or only partially address the portability issues for roles, while still requiring laborious shell development for providers and ad-hoc software modifications for users. This paper presents Harmonia, a unified framework for heterogeneous FPGA acceleration in the cloud. Harmonia operates on two layers: a platform-specific layer that abstracts hardware differences and a platform-independent layer that provides a unified shell for diverse roles and host software. In detail, Harmonia provides automated platform adapters and lightweight interface wrappers to manage hardware differences. Next, it builds a modularized shell composed of Reusable Building Blocks and employs hierarchical tailoring to provide a resource-efficient and easy-to-use shell for different roles. Finally, it presents a command-based interface to minimize software modifications across distinct platforms. Harmonia has been deployed in a large service provider, Douyin, for several years. It reduces shell development workloads by 69%-93% and simplifies role and software configurations with negligible overhead (\u003c0.63%). Compared with other frameworks, Harmonia supports cross-vendor FPGAs, reduces resource consumption by 3.5%-14.9% and simplifies software configurations by 15-23x while maintaining comparable performance."
 }
 </script>
 
   
 
-
-
-
-  
-  
-  
-
-  
-  
-
   
 
 
+
+
   
-  <title>Example Talk | Luyang Li</title>
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Harmonia: A Unified Framework for Heterogeneous FPGA Acceleration in the Cloud (ASPLOS&#39;25) | Luyang Li</title>
 
   
   
@@ -421,7 +417,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="a8edef490afe42206247b6ac05657af0" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="7bdbacf1678a85172afb0e3bc3d64ca5" >
 
   
   
@@ -695,7 +691,16 @@
     
     
 
-    <div class="pub">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
 
   
 
@@ -725,7 +730,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Example Talk</h1>
+  <h1>Harmonia: A Unified Framework for Heterogeneous FPGA Acceleration in the Cloud (ASPLOS&#39;25)</h1>
 
   
 
@@ -736,7 +741,36 @@
 
   
   
+  
+  
+  <div>
+    
 
+  <span class="author-highlighted">
+      Luyang Li</span>, <span >
+      Heng Pan</span>, <span >
+      Xinchen Wan</span>, <span >
+      Kai Lv</span>, <span >
+      Zilong Wang</span>, <span >
+      Qian Zhao</span>, <span >
+      Feng Ning</span>, <span >
+      Qingsong Ning</span>, <span >
+      Shideng Zhang</span>, <span >
+      Zhenyu Li</span>, <span >
+      Layong Luo</span>, <span >
+      Gaogang Xie</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    August, 2024
+  </span>
   
 
   
@@ -775,42 +809,23 @@
 
 
 
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header" href="/project/example/">
-    Project
-  </a>
-  
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/harmonia/cite.bib">
+  Cite
+</a>
 
 
 
 
 
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>Follow</a>
+
+
+
+
+
+
+
+
 
 
 </div>
@@ -819,10 +834,10 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 514px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 461px;">
   <div style="position: relative">
-    <img src="/talk/example-talk/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_720x2500_fit_q75_h2_lanczos.webp" width="720" height="514" alt="" class="featured-image">
-    <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/bzdhc5b3Bxs" target="_blank" rel="noopener"><strong>Unsplash</strong></a></span>
+    <img src="/publication/harmonia/featured_huc6a03c1f92558cc381654cd570d91485_81754_720x2500_fit_q75_h2_lanczos_3.webp" width="720" height="461" alt="" class="featured-image">
+    <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/pLCdAaMFLTE" target="_blank" rel="noopener"><strong>Unsplash</strong></a></span>
   </div>
 </div>
 
@@ -831,33 +846,20 @@
   <div class="article-container">
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.</p>
+    <h3>Abstract</h3>
+    <p class="pub-abstract">FPGAs are gaining popularity in the cloud as accelerators for various applications. To make FPGAs more accessible for users and streamline system management, cloud providers have widely adopted the shell-role architecture on their homogeneous FPGA servers. However, the increasing heterogeneity of cloud FPGAs poses new challenges for this architecture. Previous studies either focus on homogeneous FPGAs or only partially address the portability issues for roles, while still requiring laborious shell development for providers and ad-hoc software modifications for users. This paper presents Harmonia, a unified framework for heterogeneous FPGA acceleration in the cloud. Harmonia operates on two layers: a platform-specific layer that abstracts hardware differences and a platform-independent layer that provides a unified shell for diverse roles and host software. In detail, Harmonia provides automated platform adapters and lightweight interface wrappers to manage hardware differences. Next, it builds a modularized shell composed of Reusable Building Blocks and employs hierarchical tailoring to provide a resource-efficient and easy-to-use shell for different roles. Finally, it presents a command-based interface to minimize software modifications across distinct platforms. Harmonia has been deployed in a large service provider, Douyin, for several years. It reduces shell development workloads by 69%-93% and simplifies role and software configurations with negligible overhead (&lt;0.63%). Compared with other frameworks, Harmonia supports cross-vendor FPGAs, reduces resource consumption by 3.5%-14.9% and simplifies software configurations by 15-23x while maintaining comparable performance.</p>
     
 
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9">
-            Jun 1, 2030 1:00 PM &amp;mdash; 3:00 PM
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
+    
     
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="https://example.org" target="_blank" rel="noopener">
-            Wowchemy Conference
+            <a href="/publication/#1">
+              Conference paper
             </a>
           </div>
         </div>
@@ -872,12 +874,8 @@
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Wowchemy HQ</div>
-          
-            <div class="col-md-3"></div>
-            <div class="col-12 col-md-9">450 Serra Mall, Stanford, CA 94305</div>
-          
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>Proc. ASPLOS'25</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -887,21 +885,27 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      <div class="alert alert-note">
+    <div class="article-style"><!-- 
+
+
+<div class="alert alert-note">
   <div>
-    Click on the <strong>Slides</strong> button above to view the built-in slides feature.
+    Click the <em>Cite</em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
   </div>
 </div>
-<p>Slides can be added in a few ways:</p>
-<ul>
-<li><strong>Create</strong> slides using Wowchemy&rsquo;s <a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener"><em>Slides</em></a> feature and link using <code>slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Upload</strong> an existing slide deck to <code>static/</code> and link using <code>url_slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Embed</strong> your slides (e.g. Google Slides) or presentation video on this page using <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes</a>.</li>
-</ul>
-<p>Further event details, including <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements</a> such as image galleries, can be added to the body of this page.</p>
 
-    </div>
+
+
+
+<div class="alert alert-note">
+  <div>
+    Create your slides in Markdown - click the <em>Slides</em> button to check out the example.
+  </div>
+</div>
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). -->
+</div>
 
     
 
@@ -926,7 +930,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fliluyang.com.cn%2Ftalk%2Fexample-talk%2F&amp;text=Example&#43;Talk" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fliluyang.com.cn%2Fpublication%2Fharmonia%2F&amp;text=Harmonia%3A&#43;A&#43;Unified&#43;Framework&#43;for&#43;Heterogeneous&#43;FPGA&#43;Acceleration&#43;in&#43;the&#43;Cloud&#43;%28ASPLOS%2725%29" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -943,7 +947,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fliluyang.com.cn%2Ftalk%2Fexample-talk%2F&amp;t=Example&#43;Talk" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fliluyang.com.cn%2Fpublication%2Fharmonia%2F&amp;t=Harmonia%3A&#43;A&#43;Unified&#43;Framework&#43;for&#43;Heterogeneous&#43;FPGA&#43;Acceleration&#43;in&#43;the&#43;Cloud&#43;%28ASPLOS%2725%29" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -962,7 +966,7 @@
         
       
       <li>
-        <a href="mailto:?subject=Example%20Talk&amp;body=https%3A%2F%2Fliluyang.com.cn%2Ftalk%2Fexample-talk%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Harmonia%3A%20A%20Unified%20Framework%20for%20Heterogeneous%20FPGA%20Acceleration%20in%20the%20Cloud%20%28ASPLOS%2725%29&amp;body=https%3A%2F%2Fliluyang.com.cn%2Fpublication%2Fharmonia%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -979,7 +983,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fliluyang.com.cn%2Ftalk%2Fexample-talk%2F&amp;title=Example&#43;Talk" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fliluyang.com.cn%2Fpublication%2Fharmonia%2F&amp;title=Harmonia%3A&#43;A&#43;Unified&#43;Framework&#43;for&#43;Heterogeneous&#43;FPGA&#43;Acceleration&#43;in&#43;the&#43;Cloud&#43;%28ASPLOS%2725%29" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -996,7 +1000,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Example&#43;Talk%20https%3A%2F%2Fliluyang.com.cn%2Ftalk%2Fexample-talk%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Harmonia%3A&#43;A&#43;Unified&#43;Framework&#43;for&#43;Heterogeneous&#43;FPGA&#43;Acceleration&#43;in&#43;the&#43;Cloud&#43;%28ASPLOS%2725%29%20https%3A%2F%2Fliluyang.com.cn%2Fpublication%2Fharmonia%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1013,7 +1017,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fliluyang.com.cn%2Ftalk%2Fexample-talk%2F&amp;title=Example&#43;Talk" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fliluyang.com.cn%2Fpublication%2Fharmonia%2F&amp;title=Harmonia%3A&#43;A&#43;Unified&#43;Framework&#43;for&#43;Heterogeneous&#43;FPGA&#43;Acceleration&#43;in&#43;the&#43;Cloud&#43;%28ASPLOS%2725%29" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1033,6 +1037,7 @@
 
   
   
+    
 
 
 
@@ -1144,6 +1149,73 @@
   </div>
 
 
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
 
 
 
